@@ -1,0 +1,248 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} */
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1070px;
+
+}
+.header, .footer{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 47px 0;
+}
+
+.header_flex, .footer_flex, .about,.try, .subscr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.nav_li:not(:first-of-type){
+margin-left: 49px;
+}
+
+.nav_link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+
+.button{
+    width: 212px;
+    height: 60px ;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn_orange{
+    background: #FF7143;
+}
+
+.btn_orange:hover{
+    background: #ff794d;
+}
+
+.about{
+    margin: 104px auto 85px;
+}
+
+.about_title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;  
+    letter-spacing: -2.50105px;   
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 464px;
+    margin-bottom: 50px;
+}
+
+.btn_violet{
+    background: #5454D4;
+}
+
+.btn_transparent{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.footer{
+    padding: 53px 0;
+}
+
+h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 38px;
+}
+
+.modal-field-input{
+    width: 302px;
+    height: 56px;
+    border: 1px solid #7087FF;
+    border-radius: 10px;
+    margin-right: 35px;
+    left: 493px;
+    top: 354px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.try{
+    margin-bottom: 85px;
+}
+
+.about_choice{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;   
+    letter-spacing: -1.87579px; 
+    color: #19191B;
+    max-width: 504px;
+    margin-bottom: 98px;
+}
+.choice{
+    display: flex;
+    justify-content: space-between;
+}
+.whole_choice{
+    margin: 0 auto;
+    max-width: 1070px;
+    margin-bottom: 132px;
+}
+
+.price{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+}
+
+h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+}
+
+.h6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;    
+    text-align: center;
+    letter-spacing: -0.562737px;
+    margin-bottom: 22px ;
+}
+
+.free, .enterprise{
+    background: #F8F8F8;
+    border-radius: 10px;
+    padding: 34px 24px 27px 21px;
+}
+
+.premium{
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+    padding: 34px 24px 27px 21px;
+}
+
+.button1{
+    margin-top: 36px;
+    width: 285px;
+    height: 60px ;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    cursor: pointer;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+.gray{
+    color: #696871;
+}
+
+.free_text{
+    margin-bottom: 40px;
+}
+
+.btn_orange1{
+    background: #9F3919;
+    border-radius: 10px;
+    font-family: 'DM Sans';
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn_white{
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+}
